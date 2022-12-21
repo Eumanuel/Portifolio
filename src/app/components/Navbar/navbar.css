@@ -22,3 +22,8 @@
     width: 22px;
 }
 
+.navbarCenter a{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
