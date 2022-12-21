@@ -14,6 +14,7 @@
     margin-left: 10px;
     text-decoration: initial;
     font-weight: 300;
+    flex: 1;
 
 }
 
@@ -27,3 +28,12 @@
     cursor: pointer;
 }
 
+.navbarCenter{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarRight{
+    flex:1;
+}

@@ -29,8 +29,8 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      <Link to="/">
-        <div className="navbarLeft">Eumanuel .Dev</div>
+      <Link to="/" className='navbarLeft'>
+        Eumanuel .Dev
       </Link>
       <div className="navbarCenter">
         <Tippy
@@ -84,7 +84,7 @@ export default function Navbar() {
         </a>
         </Tippy>
       </div>
-      <div className="navbarRight">right</div>
+      <div className="navbarRight"></div>
     </div>
   )
 }
