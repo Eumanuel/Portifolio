@@ -1,0 +1,12 @@
+.topText{
+    font-weight: 300;
+}
+
+.errorPage{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    align-items: center;
+    justify-self: center;
+}
