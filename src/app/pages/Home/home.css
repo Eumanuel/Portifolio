@@ -1,0 +1,30 @@
+.home{
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+
+.hoami{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 50px;
+    align-items: center;
+    border-radius: 50px;
+    background: #646464;
+    box-shadow:  20px 20px 60px #555555,
+                 -20px -20px 60px #737373;
+    margin: 100px;
+    max-width: 480px;
+}
+
+.hoamiPhoto{
+    border-radius: 50%;
+    width: 50%;
+}
+
+.hoamiPhrase{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
