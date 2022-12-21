@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background-color: #646464;
+    color: white;
+}
+
+a {
+    text-decoration: none; /* no underline */
+    color: inherit;
+}
