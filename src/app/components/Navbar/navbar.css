@@ -37,3 +37,13 @@
 .navbarRight{
     flex:1;
 }
+
+@media (max-width:770px){
+    .navbarRight{
+        flex: 0;
+        display: none;
+    }
+    .navbarCenter{
+        justify-content: right;
+    }
+}

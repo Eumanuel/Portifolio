@@ -84,7 +84,7 @@ export default function Navbar() {
         </a>
         </Tippy>
       </div>
-      <div className="navbarRight"></div>
+      <div className="navbarRight"><h3>Página em construção! Veja o progresso no GitHub!</h3></div>
     </div>
   )
 }
