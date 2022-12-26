@@ -2,6 +2,7 @@
     height: min-content;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .hoami{
@@ -14,8 +15,8 @@
     background: #646464;
     box-shadow:  20px 20px 60px #555555,
                  -20px -20px 60px #737373;
-    margin: 100px;
     max-width: 480px;
+    flex: 3;
 }
 
 .hoamiPhoto{
@@ -27,4 +28,72 @@
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+.whatIDo{
+    flex: 6;
+}
+
+.experiencesWrapper{
+    display: flex;
+    flex: 6;
+    margin-left: 50px;
+    flex-direction: column;
+}
+.onConstructionWarning{
+    text-align: center;
+    display: none;
+}
+
+@media (min-width:1430px){
+    .home{
+        margin: 100px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1429px){
+    .home{
+        margin: 70px;
+    }
+
+    .hoami h1 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:965px) and (max-width:1199px){
+    .home{
+        margin: 30px;
+    }
+    .hoami{
+        padding: 20px;
+    }
+    .hoami h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:965px){
+    .home{
+        flex-direction: column;
+        margin: 30px;
+        align-items: center;
+    }
+    .experiencesWrapper{
+        margin-left: 0;
+    }
+    .hoami{
+        padding: 20px;
+        width: 100%;
+    }
+    .hoami h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:770px){
+
+    .onConstructionWarning{
+        display: inherit;
+    }
 }
