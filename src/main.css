@@ -1,6 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
-    background-color: #646464;
+    background-color: #191d32;
     color: white;
     font-family: Manrope, 'Courier New', Courier, monospace;
 }

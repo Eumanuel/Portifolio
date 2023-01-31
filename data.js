@@ -51,9 +51,21 @@ export const tools = [
         description: "Alguns anos de experiência em projetos pessoais, além de experiência profissional com a Umbler."
     },
     {
-        id: 2,
+        id: 3,
         name: "Premiere Pro",
         logo: "premiere.jpg",
         description: "Alguns anos de experiência em projetos pessoais, além de experiência profissional com a Umbler."
     },
+]
+
+export const experiences = [
+    {
+        id: 0,
+        companyName: "Umbler",
+        companyLogo: "umbler.jpg",
+        jobTitle: "Analista de Customer Success",
+        jobType: "Estágio",
+        fromTo: "fev de 2021 - jun de 2022",
+        competencies: "Trabalho em equipe ·| Atendimento ao cliente ·| WordPress ·| MySQL |· Elasticsearch"
+    }
 ]

@@ -1,4 +1,78 @@
-.home{
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    margin: 50px 0px 50px 0px;
+    width: 1176px;
+    height: 1057px;
+    display: flex;
+}
+
+.resumeProfile{
+    background-color: #202021b0;
+    flex: 5;
+    border-radius: 40px 0 0 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resumeExperience {
+    background-color: #293c9a71;
+    flex: 7;
+    border-radius: 0 40px 40px 0;
+}
+
+.profileImage {
+    width: auto;
+    height: 143px;
+    border-radius: 50%;
+    margin-top: 56px;
+}
+
+.profileName {
+    margin-top: 13px;
+}
+
+.profileOccupation {
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.qualificationsWrapper {
+    width: 432px;
+    margin: 39px 30px 0 30px;
+}
+
+.qualitication{
+    margin-bottom: 16px;
+}
+
+.qualiticationTitle {
+    display: flex;
+    align-items: center;
+}
+
+.qualiticationTitle h3 {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.qualitication p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.profileNetworks {
+    width: 252px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+/* .home{
     height: min-content;
     display: flex;
     justify-content: center;
@@ -11,7 +85,7 @@
     width: 40%;
     padding: 50px;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #646464;
     box-shadow:  20px 20px 60px #555555,
                  -20px -20px 60px #737373;
@@ -32,12 +106,16 @@
 
 .whatIDo{
     flex: 6;
+    max-height: 100%;
+    overflow-y: overlay;
+    background: #2c2c2c;
+    border-radius: 0px 50px 50px 0px;
 }
 
 .experiencesWrapper{
     display: flex;
     flex: 6;
-    margin-left: 50px;
+    margin: 0 50px;
     flex-direction: column;
 }
 .onConstructionWarning{
@@ -96,4 +174,4 @@
     .onConstructionWarning{
         display: inherit;
     }
-}
+} */
