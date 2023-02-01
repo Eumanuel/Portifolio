@@ -28,7 +28,7 @@ export default function Home() {
     <div className="wrapper">
       <div className="resume">
         <div className="resumeProfile">
-          <img src="./fotoPerfil.jpg" alt="" className="profileImage" />
+          <img src="./foto.webp" alt="" className="profileImage" />
           <h1 className='profileName'>Emanuel Ribeiro</h1>
           <p className="profileOccupation">FullStack JS e C# Jr</p>
           <div className="qualificationsWrapper">
