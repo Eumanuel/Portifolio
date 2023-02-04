@@ -1,6 +1,6 @@
 import './home.css'
 
-import { AppWindow, Atom, StripeLogo, GlobeHemisphereWest, HardDrives, Translate, UsersThree, LinkedinLogo, GithubLogo, InstagramLogo, WhatsappLogo, Envelope } from 'phosphor-react'
+import { AppWindow, Atom, StripeLogo, GlobeHemisphereWest, HardDrives, Translate, UsersThree, LinkedinLogo, GithubLogo, InstagramLogo, WhatsappLogo, Envelope, FileArrowDown } from 'phosphor-react'
 
 import React, { useState } from 'react'
 
@@ -201,6 +201,15 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <a href='https://onedrive.live.com/download?cid=D3A14AD9A72B3132&resid=D3A14AD9A72B3132%211614&authkey=AFqORa_aATw9LA8&em=2' className="curriculumDownload">
+            <div className="downloadButton">
+              <FileArrowDown size={23} weight={'bold'}/>
+              <h3>
+              Download Currículo
+
+              </h3>
+            </div>
+          </a>
 
         </div>
       </div>
