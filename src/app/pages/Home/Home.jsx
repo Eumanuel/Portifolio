@@ -150,7 +150,59 @@ export default function Home() {
           </Tippy>
       </div>
       </div>
-        <div className="resumeExperience"></div>
+        <div className="resumeExperience">
+
+          <h1 className='title'>Experiência Profissional</h1>
+
+        <div className="timeline skwrenTimeline">
+            <div className="experienceCompany">
+              <img src="./skwren.webp" alt="" className="umblerLogo" />
+              <div className="company-text">
+                <h1>Skwren Internet LTDA   • 7 m</h1>
+                <small>47.316.952/0001-82</small>
+              </div>
+            </div>
+            <div className="experienceBit">
+              <div className="ball skDevBall"></div>
+              <div className="experience-text">
+                <h2>Dev FullStack MERN</h2>
+                <p>Configuração completa dos sistemas e serviços, como, domínios, e-mails, hospedagem e sistemas internos.</p>
+              </div>
+            </div>
+        </div>
+
+          <div className="timeline umblerTimeline">
+            <div className="experienceCompany">
+              <img src="./umbler.webp" alt="" className="umblerLogo" />
+              <div className="company-text">
+                <h1>Umbler Internet LTDA   • 1 a 11 m</h1>
+                <small>30.655.874/0001-48</small>
+              </div>
+            </div>
+            <div className="experienceBit">
+              <div className="ball umbDevBall"></div>
+              <div className="experience-text">
+                <h2>Dev C# Junior</h2>
+                <p>Desenvolvimento e manutenção das ferramentas internas do time de customer Success, integração com APIs externas e criação de APIs internas, além de tradução de páginas antigas em MVC para novas em Blazor</p>
+              </div>
+            </div>
+            <div className="experienceBit">
+              <div className="ball engineerBall"></div>
+              <div className="experience-text">
+                <h2>Engenheiro de Customer Success</h2>
+                <p>Implementação de melhorias operacionais a fim de gerar eficiência no processo de atendimento, treinamento de novos analistas, atendimento para clientes de alto valor e clientes detratores, gravação de vídeos tutoriais para o canal do Youtube da empresa, moderação do Forum (uCommunity), desenvolvimento de planos e lideraça de projetos internos.</p>
+              </div>
+            </div>
+            <div className="experienceBit">
+              <div className="ball analystBall"></div>
+              <div className="experience-text">
+                <h2>Analista de Customer Success</h2>
+                <p>Atendimento personalizado ao cliente, atuando de forma a promover os serviços oferecidos, apresentando opções adequadas para cada perfil, além de resolução de problemas de configuração do serviço do cliente em WordPress, MySQL, NodeJs, MongoDb, DNS, Email e FTP</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
 
     </div>

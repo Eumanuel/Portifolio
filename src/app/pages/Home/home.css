@@ -1,6 +1,13 @@
+
+
 .wrapper{
     display: flex;
     justify-content: center;
+    background-image: url("./background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: calc(100vw - 5px);
 }
 
 .resume {
@@ -11,18 +18,24 @@
 }
 
 .resumeProfile{
-    background-color: #202021b0;
+    background-color: rgba(32, 32, 33, 0.85);
     flex: 5;
     border-radius: 40px 0 0 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    mix-blend-mode: normal;
+    box-shadow: inset 1px 4px 7px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
 }
 
 .resumeExperience {
-    background-color: #293c9a71;
+    background-color: rgba(41, 59, 154, 0.5);
     flex: 7;
     border-radius: 0 40px 40px 0;
+    mix-blend-mode: normal;
+    box-shadow: inset -1px 4px 7px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
 }
 
 .profileImage {
@@ -73,106 +86,270 @@
     padding-top: 30px;
 }
 
-/* .home{
-    height: min-content;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+.resumeExperience .title {
+    margin-top: 56px;
+    text-align: center;
+    font-weight: 300;
 }
 
-.hoami{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    padding: 50px;
-    align-items: center;
-    border-radius: 50px 0px 0px 50px;
-    background: #646464;
-    box-shadow:  20px 20px 60px #555555,
-                 -20px -20px 60px #737373;
-    max-width: 480px;
-    flex: 3;
+.skwrenTimeline {
+    position: relative;
+    max-width: 600px;
+    margin: 38px auto;
 }
 
-.hoamiPhoto{
+.umblerTimeline {
+    position: relative;
+    max-width: 600px;
+    margin: 38px auto;
+}
+
+.experienceBit {
+    padding-left: 40px;
+    position: relative;
+    width: 90%;
+    left: 10%;
+}
+
+.ball {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #557cf2;
     border-radius: 50%;
-    width: 50%;
+    left: -12px;
+    top: 40px;
 }
 
-.hoamiPhrase{
-    text-align: center;
-    display: flex;
-    align-items: center;
+.ball::after {
+    right: 38px;
+    top: 4px;
+    position: absolute;
+    font-size: 12px;
 }
 
-.whatIDo{
-    flex: 6;
-    max-height: 100%;
-    overflow-y: overlay;
-    background: #2c2c2c;
-    border-radius: 0px 50px 50px 0px;
+.analystBall::after {
+    content: '02/2021';
 }
 
-.experiencesWrapper{
-    display: flex;
-    flex: 6;
-    margin: 0 50px;
-    flex-direction: column;
-}
-.onConstructionWarning{
-    text-align: center;
-    display: none;
+.engineerBall::after {
+    content: '08/2022';
 }
 
-@media (min-width:1430px){
-    .home{
-        margin: 100px;
-    }
+.umbDevBall::after {
+    content: '06/2022';
 }
 
-@media (min-width:1200px) and (max-width:1429px){
-    .home{
-        margin: 70px;
-    }
-
-    .hoami h1 {
-        font-size: 24px;
-    }
+.skDevBall::after {
+    content: 'Atualmente';
 }
 
-@media (min-width:965px) and (max-width:1199px){
-    .home{
-        margin: 30px;
-    }
-    .hoami{
-        padding: 20px;
-    }
-    .hoami h1 {
-        font-size: 24px;
-    }
+.skDevBall {
+    background-color: #fff;
 }
 
-@media (max-width:965px){
-    .home{
+.experience-text {
+    padding-top: 38px;
+    position: relative;
+}
+
+.experience-text h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.experience-text p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.skwrenTimeline::after {
+    height: calc(100% - 45px);
+    background-color: #fff;
+}
+
+.umblerTimeline::after {
+    height: calc(100% - 80px);
+    background-color: #557cf2;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    top: 0;
+    left: 57px;
+}
+
+.company-text{
+    padding-top: 14px;
+    position: relative;
+    left: 120px;
+    width: fit-content;
+}
+
+.company-text h1 {
+    font-size: 25px;
+}
+
+.company-text small {
+    font: 12px;
+}
+
+.umblerLogo {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    left: 27px;
+    top: 0px;
+    z-index: 1;
+}
+
+@media (min-width:720px) and (max-width: 1180px){
+    .resume {
         flex-direction: column;
-        margin: 30px;
         align-items: center;
+        height: min-content;
     }
-    .experiencesWrapper{
-        margin-left: 0;
+    .resumeProfile {
+        flex: inherit;
+        width: 700px;
+        border-radius: 40px 40px 0 0;
     }
-    .hoami{
-        padding: 20px;
+
+    .resumeExperience {
+        flex: inherit;
+        width: 700px;
+        border-radius: 0 0 40px 40px;
+    }
+    .qualificationsWrapper {
+        align-self: baseline;
+    }
+    .qualitication {
         width: 100%;
     }
-    .hoami h1 {
-        font-size: 24px;
+    .experienceBit{
+        padding-right: 0px;
     }
 }
 
-@media (max-width:770px){
-
-    .onConstructionWarning{
-        display: inherit;
+@media (max-width: 719px) {
+    .resume {
+        flex-direction: column;
+        align-items: center;
     }
-} */
+    .resumeProfile {
+        flex: inherit;
+        width: 485px;
+        border-radius: 40px 40px 0 0;
+    }
+
+    .resumeExperience {
+        flex: inherit;
+        width: 485px;
+        border-radius: 0 0 40px 40px;
+    }
+    .company-text h1 {
+        font-size: 22px;
+    }
+    .company-text small {
+        font-size: 12px;
+    }
+    .experience-text h2 {
+        font-size: 18px;
+    }
+    .experience-text p {
+        font-size: 12px;
+        padding-right: 20px;
+    }
+    .ball {
+        width: 22px;
+        height: 22px;
+        left: -5px;
+        top: 36px;
+    }
+    .ball {
+        left: calc((100vw - 500px)/108*-1);
+    }
+    .ball::after {
+        font-size: 8px;
+        left: -40px;
+        top: 5px;
+    }
+    .resume {
+        height: min-content;
+    }
+}
+
+
+@media (max-width: 577px) {
+    .ball {
+        left: calc((100vw - 500px)/108*-1);
+    }
+    .ball::after {
+        font-size: 8px;
+        left: -40px;
+        top: 5px;
+    }
+}
+
+@media (max-width: 499px) {
+    .wrapper {
+        width: 100vw;
+    }
+    .resumeProfile {
+        flex: inherit;
+        width: 100vw;
+        border-radius: 40px 40px 0 0;
+    }
+
+    .resumeExperience {
+        flex: inherit;
+        width: 100vw;
+        border-radius: 0 0 40px 40px;
+    }
+    .company-text h1 {
+        font-size: 16px;
+    }
+    .company-text small {
+        font-size: 12px;
+    }
+    .experience-text h2 {
+        font-size: 12px;
+    }
+    .experience-text p {
+        font-size: 8px;
+        padding-right: 20px;
+    }
+    .ball {
+        font-size: 8px;
+        width: 0px;
+        height: 0px;
+    }
+    .ball::after {
+        font-size: 8px;
+        left: -25px;
+        top: 5px;
+    }
+    .company-text{
+        left: 100px;
+    }
+    .qualiticationTitle h3{
+        font-size: 16px;
+    }
+    .qualitication p{
+        font-size: 12px;
+    }
+    .qualificationsWrapper {
+        width: 90%;
+    }
+    .timeline::after{
+        height: 100%;
+        border-radius: 0 0 5px 5px;
+    }
+    .skDevBall::after {
+        content: 'Hoje';
+    }
+}
