@@ -11,7 +11,7 @@ import Navbar from "./../components/Navbar/Navbar"
 export default function Router() {
   return (
     <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="*" element={<NotFound/>}/>
