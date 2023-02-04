@@ -34,7 +34,7 @@ export default function Home() {
           <div className="qualificationsWrapper">
           <div className="qualitication">
               <div className="qualiticationTitle">
-                <AppWindow size={23} color="#fff" weight='light'/>
+                <AppWindow size={23} color="#557CF2" weight='light'/>
                 <h3>Ecossistema NodeJs</h3>
               </div>
               <p>
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <div className="qualitication">
               <div className="qualiticationTitle">
-                <Atom size={23} color="#fff" weight='light'/>
+                <Atom size={23} color="#557CF2" weight='light'/>
                 <h3>Stack MERN</h3>
               </div>
               <p>
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="qualitication">
               <div className="qualiticationTitle">
-                <StripeLogo size={23} color="#fff" weight='light'/>
+                <StripeLogo size={23} color="#557CF2" weight='light'/>
                 <h3>Integração de APIs</h3>
               </div>
               <p>
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
             <div className="qualitication">
               <div className="qualiticationTitle">
-                <GlobeHemisphereWest size={23} color="#fff" weight='light'/>
+                <GlobeHemisphereWest size={23} color="#557CF2" weight='light'/>
                 <h3>High Availability</h3>
               </div>
               <p>
@@ -70,7 +70,7 @@ export default function Home() {
             </div>
             <div className="qualitication">
               <div className="qualiticationTitle">
-                <HardDrives size={23} color="#fff" weight='light'/>
+                <HardDrives size={23} color="#557CF2" weight='light'/>
                 <h3>Bare-Metal e Cloud</h3>
               </div>
               <p>
@@ -79,7 +79,7 @@ export default function Home() {
             </div>
             <div className="qualitication">
               <div className="qualiticationTitle">
-                <Translate size={23} color="#fff" weight='light'/>
+                <Translate size={23} color="#557CF2" weight='light'/>
                 <h3>Fluência em Inglês</h3>
               </div>
               <p>
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <div className="qualitication">
               <div className="qualiticationTitle">
-                <UsersThree size={23} color="#fff" weight='light'/>
+                <UsersThree size={23} color="#557CF2" weight='light'/>
                 <h3>Customer Success</h3>
               </div>
               <p>
