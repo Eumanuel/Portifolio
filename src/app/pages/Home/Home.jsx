@@ -201,7 +201,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <a href='https://onedrive.live.com/download?cid=D3A14AD9A72B3132&resid=D3A14AD9A72B3132%211614&authkey=AFqORa_aATw9LA8&em=2' className="curriculumDownload">
+          <a href='https://onedrive.live.com/download?resid=D3A14AD9A72B3132%211614&authkey=!AFqORa_aATw9LA8&em=2' className="curriculumDownload">
             <div className="downloadButton">
               <FileArrowDown size={23} weight={'bold'}/>
               <h3>
