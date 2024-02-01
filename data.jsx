@@ -14,7 +14,7 @@ export const experiences = [
 ]
 
 const diferenciaisSettings = {
-    size: 32,
+    size: 23,
     color: "#557CF2",
     weight: "light"
 }
