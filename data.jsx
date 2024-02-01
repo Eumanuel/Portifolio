@@ -1,4 +1,4 @@
-import { AppWindow, Atom, GlobeHemisphereWest, HardDrives, StripeLogo, Translate, UsersThree } from "phosphor-react"
+import { AppWindow, Atom, Briefcase, GlobeHemisphereWest, HardDrives, StripeLogo, Translate, UsersThree } from "phosphor-react"
 
 
 export const experiences = [
@@ -61,5 +61,11 @@ export const diferenciais = [
         icon: <UsersThree {...diferenciaisSettings}/>,
         title: "Customer Success",
         description: "Experiência em suporte tanto ao cliente técnico quanto ao cliente leigo",
+    },
+    {
+        id: 7,
+        icon: <Briefcase {...diferenciaisSettings}/>,
+        title: "Experiência Comprovada",
+        description: "Experiência comprovada no ramo, trabalhando em diversas empresas do ramo da tecnologia",
     },
 ]

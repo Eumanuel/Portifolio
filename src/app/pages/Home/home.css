@@ -14,7 +14,7 @@
 .resume {
     margin: 50px 0px 50px 0px;
     width: 1176px;
-    height: 1164px;
+    height: 1248px;
     display: flex;
 }
 
@@ -95,7 +95,13 @@
     font-weight: 300;
 }
 
-.skwrenTimeline {
+.marttechTimeline {
+    position: relative;
+    max-width: 600px;
+    margin: 38px auto;
+}
+
+.imobiTimeline {
     position: relative;
     max-width: 600px;
     margin: 38px auto;
@@ -143,13 +149,22 @@
     content: '06/2022';
 }
 
-.skDevBall::after {
-    content: 'Atualmente';
+.imobiDevBall::after {
+    content: '09/2023';
 }
 
-.skDevBall {
+.marttechDevBall::after {
+    content: 'Atualmente'
+}
+
+.imobiDevBall {
+    background-color: #009427;
+}
+
+.marttechDevBall {
     background-color: #fff;
 }
+
 
 .experience-text {
     padding-top: 38px;
@@ -167,9 +182,14 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.skwrenTimeline::after {
-    height: calc(100% - 45px);
+.marttechTimeline::after {
+    height: calc(100% - 82px);
     background-color: #fff;
+}
+
+.imobiTimeline::after {
+    height: calc(100% - 45px);
+    background-color: #009427;
 }
 
 .umblerTimeline::after {
@@ -200,7 +220,7 @@
     font: 12px;
 }
 
-.umblerLogo {
+.companyLogo {
     position: absolute;
     width: 65px;
     height: 65px;
@@ -401,7 +421,7 @@
         height: 100%;
         border-radius: 0 0 5px 5px;
     }
-    .skDevBall::after {
+    .marttechDevBall::after {
         content: 'Hoje';
     }
 }
