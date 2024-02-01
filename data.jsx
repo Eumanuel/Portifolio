@@ -36,7 +36,7 @@ export const diferenciais = [
         id: 2,
         icon: <StripeLogo {...diferenciaisSettings}/>,
         title: "Integração de APIs",
-        description: "Experiência na integração de APIs de pagamenot no front e Back-end para aplicações seguras",
+        description: "Experiência na integração de APIs de pagamentos no Front e Back-end para aplicações seguras",
     },
     {
         id: 3,
