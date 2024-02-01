@@ -9,6 +9,8 @@ import Tippy from '@tippyjs/react';
 import "tippy.js/dist/tippy.css"; // optional
 import "tippy.js/themes/translucent.css";
 import "tippy.js/animations/shift-away.css";
+import { diferenciais } from '../../../../data';
+import Competences from '../../components/competences';
 
 export default function Home() {
 
@@ -32,69 +34,10 @@ export default function Home() {
           <h1 className='profileName'>Emanuel Ribeiro</h1>
           <p className="profileOccupation">FullStack JS e C# Jr</p>
           <div className="qualificationsWrapper">
-          <div className="qualitication">
-              <div className="qualiticationTitle">
-                <AppWindow size={23} color="#557CF2" weight='light'/>
-                <h3>Ecossistema NodeJs</h3>
-              </div>
-              <p>
-                Experiência completa no desenvolvimento de aplicações NodeJs com diversas bibliotecas
-              </p>
-            </div>
-            <div className="qualitication">
-              <div className="qualiticationTitle">
-                <Atom size={23} color="#557CF2" weight='light'/>
-                <h3>Stack MERN</h3>
-              </div>
-              <p>
-                Aplicações web completas criadas com a stack MongoDb, Express, React e Node
-              </p>
-            </div>
-            <div className="qualitication">
-              <div className="qualiticationTitle">
-                <StripeLogo size={23} color="#557CF2" weight='light'/>
-                <h3>Integração de APIs</h3>
-              </div>
-              <p>
-                Experiência na integração de APIs de pagamenot no front e Back-end para aplicações seguras
-              </p>
-            </div>
-            <div className="qualitication">
-              <div className="qualiticationTitle">
-                <GlobeHemisphereWest size={23} color="#557CF2" weight='light'/>
-                <h3>High Availability</h3>
-              </div>
-              <p>
-                Aplicações de alta disponibilidade criadas com escabalibidade em mente, usando CDNs e Clusteres
-              </p>
-            </div>
-            <div className="qualitication">
-              <div className="qualiticationTitle">
-                <HardDrives size={23} color="#557CF2" weight='light'/>
-                <h3>Bare-Metal e Cloud</h3>
-              </div>
-              <p>
-                Experiência na configuração de servidores Bare-Metal e Cloud nos principais serviços de hospedagem
-              </p>
-            </div>
-            <div className="qualitication">
-              <div className="qualiticationTitle">
-                <Translate size={23} color="#557CF2" weight='light'/>
-                <h3>Fluência em Inglês</h3>
-              </div>
-              <p>
-                Nível CEFR C1 Advanced em inglês, para conversação, leitura e escrita
-              </p>
-            </div>
-            <div className="qualitication">
-              <div className="qualiticationTitle">
-                <UsersThree size={23} color="#557CF2" weight='light'/>
-                <h3>Customer Success</h3>
-              </div>
-              <p>
-                Experiência em suporte tanto ao cliente técnico quanto ao cliente leigo
-              </p>
-            </div>
+            {diferenciais.map((diferential) => {
+            return (
+              <Competences {...diferential}/>)
+            })}
 
           </div>
       <div className="profileNetworks">
