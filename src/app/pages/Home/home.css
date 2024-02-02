@@ -261,7 +261,7 @@
     font-size: 15px;
 }
 
-@-webkit-keyframes breathing {
+@keyframes breathing {
     0% {
         background-size: 100vw;
     }
