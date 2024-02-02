@@ -23,6 +23,17 @@ export default function Home() {
     await new Promise(r => setTimeout(r, 2500));
     setMailText("E-Mail");
   };
+
+  function getMonthDifference(startDate, endDate) {
+    return (
+      endDate.getMonth() -
+      startDate.getMonth() +
+      12 * (endDate.getFullYear() - startDate.getFullYear())
+    );
+  }
+  
+  const sinceLastWork = getMonthDifference(new Date("2023-08-06"), new Date());
+  
   return (
     <>
 
@@ -101,7 +112,7 @@ export default function Home() {
               <div className="experienceCompany">
                 <img src="./marttech.svg" alt="" className="companyLogo" />
                 <div className="company-text">
-                  <h1>Marttech   • 8 m</h1>
+                  <h1>Marttech   • {sinceLastWork} m</h1>
                   <small>13.974.925/0001-85</small>
                 </div>
               </div>
