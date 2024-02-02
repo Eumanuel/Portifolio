@@ -99,7 +99,7 @@ export default function Home() {
 
             <div className="timeline marttechTimeline">
               <div className="experienceCompany">
-                <img src="./marttech.webp" alt="" className="companyLogo" />
+                <img src="./marttech.svg" alt="" className="companyLogo" />
                 <div className="company-text">
                   <h1>Marttech   • 8 m</h1>
                   <small>13.974.925/0001-85</small>
@@ -116,7 +116,7 @@ export default function Home() {
 
             <div className="timeline imobiTimeline">
               <div className="experienceCompany">
-                <img src="./imobi.webp" alt="" className="companyLogo" />
+                <img src="./imobi.svg" alt="" className="companyLogo" />
                 <div className="company-text">
                   <h1>Imobibrasil   • 8 m</h1>
                   <small>13.326.364/0001-08</small>
@@ -133,7 +133,7 @@ export default function Home() {
 
             <div className="timeline umblerTimeline">
               <div className="experienceCompany">
-                <img src="./umbler.webp" alt="" className="companyLogo" />
+                <img src="./umbler.svg" alt="" className="companyLogo" />
                 <div className="company-text">
                   <h1>Umbler   • 1 a 11 m</h1>
                   <small>30.655.874/0001-48</small>
